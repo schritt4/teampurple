@@ -18,9 +18,7 @@ const PurpleLogo = styled.img`
 export default function Header() {
 	return (
 		<HeaderWrap>
-			<Link to="/">
-				<PurpleLogo src={Logo} alt="" />
-			</Link>
+			
 		</HeaderWrap>
 	);
 }

@@ -2,8 +2,9 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 import GlobalStyle from './styles/GlobalStyle';
 import GlobalFont from './styles/GlobalFont';
 import Home from './pages/home/Home';
-import Listing from './pages/listing/Listing';
-import Mypage from './pages/mypage/Mypage'; 
+import Searching from './pages/searching/Searching';
+import Map from './pages/map/Map'; 
+import Listing from './pages/listing/Listing'; 
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <>
           <Routes>
             <Route path="/" element={<Home/>} />
+            <Route path="/searching" element={<Searching/>} />
+            <Route path="/map" element={<Map />} />
             <Route path="/listing" element={<Listing/>} />
-            <Route path="/mypage" element={<Mypage/>} />
           </Routes>
         </>
       </BrowserRouter>
