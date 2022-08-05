@@ -7,6 +7,7 @@ import ListUp from "./listingcomponent/ListUp";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import CafeSample from "../../assets/cafesample.jpeg";
+import React from "react";
 
 const Logo = styled.img``;
 const AskingDiv = styled.div`

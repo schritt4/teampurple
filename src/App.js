@@ -4,7 +4,8 @@ import GlobalFont from './styles/GlobalFont';
 import Home from './pages/home/Home';
 import Searching from './pages/searching/Searching';
 import Map from './pages/map/Map'; 
-import Listing from './pages/listing/Listing'; 
+import Listing from './pages/listing/Listing';
+import React from 'react'; 
 
 function App() {
   return (

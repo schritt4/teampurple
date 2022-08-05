@@ -2,6 +2,7 @@ import styled from "styled-components";
 import purplelogo from "../../../assets/purplelogo1.png";
 import cafesample from "../../../assets/cafesample.jpeg";
 import { Link } from "react-router-dom";
+import React from "react";
 
 const Div1 = styled.div`
 	width: 100vw;

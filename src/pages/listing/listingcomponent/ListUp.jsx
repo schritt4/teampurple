@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React from "react";
 
 /* const results = [
   { name: "파파커피 ", img: { CafeSample }, location: "신촌", num: "010", exp: "넓은카페~ " },

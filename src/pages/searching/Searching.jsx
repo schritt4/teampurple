@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import BodyWrapper from "../../components/Bodywrapper";
 import PurPleLogo from "../../assets/purplelogo_p.png";
 import { Link } from "react-router-dom";
+import React from "react";
 
 const Logo = styled.img``;
 const AskingDiv = styled.div`

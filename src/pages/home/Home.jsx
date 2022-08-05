@@ -3,7 +3,8 @@ import Footer from "../../components/Footer";
 import BodyWrapper from "../../components/Bodywrapper";
 import styled from "styled-components";
 import TodayRecommand from "./homecomponents/TodayRecommand";
-import Searching from "./homecomponents/Searching"; 
+import Searching from "./homecomponents/Searching";
+import React from "react"; 
 
 const Div1 = styled.div`
 	background-color: #f5f5f5;

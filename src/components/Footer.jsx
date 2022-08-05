@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import SearchingIcon from '../assets/icon/searchingicon.png';
 import HomeIcon from '../assets/icon/homeicon.png';
 import MapIcon from '../assets/icon/mapicon.png'; 
+import React from "react";
 
 const GrayWrapper = styled.footer`
 	width: 100vw;

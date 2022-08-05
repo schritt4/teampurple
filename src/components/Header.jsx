@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Logo from "../assets/purplelogo.png";
+import React from "react";
 
 const HeaderWrap = styled.header`
 	display: flex;
